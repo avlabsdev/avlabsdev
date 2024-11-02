@@ -54,7 +54,9 @@ export default function RootLayout({
                 href="https://avlabs.dev"
                 title="avlabs.dev homepage"
               >
-                <span className="text-default-600">&copy; 2024</span>
+                <span className="text-default-600">
+                  Made with blood, sweat, and tears by
+                </span>
                 <p className="text-primary">AV Labs</p>
               </Link>
             </footer>
