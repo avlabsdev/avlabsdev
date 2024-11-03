@@ -2,8 +2,8 @@
 
 export default function Home() {
   return (
-    <>
-      Main
-    </>
+    <div className="flex flex-col grow h-full">
+      Home page
+    </div>
   );
 }

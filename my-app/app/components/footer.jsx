@@ -3,8 +3,8 @@
 export default function Footer() {
     return (
       <>
-        <footer>
-          Footer!
+        <footer className="flex p-4">
+          Footer
         </footer>
       </>
     );
