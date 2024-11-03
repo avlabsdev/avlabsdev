@@ -26,7 +26,7 @@ function App() {
       </main>
       <footer className="container mx-auto p-4 flex items-center justify-between">
         <p>&copy; 2024 <a href="#/" className="font-medium hover:opacity-75">AV Labs</a>. All rights reserved.</p>
-        <div>
+        <div className="flex items-center gap-4">
           <a href="#/" className="p-2 font-medium hover:opacity-75">Privacy Policy</a>
           <a href="#/" className="p-2 font-medium hover:opacity-75">Terms of Service</a>
         </div>
