@@ -3,10 +3,10 @@
 // import viteLogo from '/vite.svg'
 import { Routes, Route } from 'react-router-dom';
 import './App.css'
-import Home from './pages/Home'
-import Projects from './pages/Projects';
-import About from './pages/About'
-import Contact from './pages/Contact'
+import HomePage from './pages/Home'
+import ProjectsPage from './pages/Projects';
+import AboutPage from './pages/About'
+import ContactPage from './pages/Contact'
 
 
 function App() {
@@ -28,10 +28,10 @@ function App() {
       </header>
       <main className="container mx-auto p-4">
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/" element={<HomePage />} />
+          <Route path="/projects" element={<ProjectsPage />} />
+          <Route path="/about" element={<AboutPage />} />
+          <Route path="/contact" element={<ContactPage />} />
         </Routes>
       </main>
       <footer className="container mx-auto p-4 flex items-center justify-between">

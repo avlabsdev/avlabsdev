@@ -1,4 +1,4 @@
-function Projects() {
+function ProjectsPage() {
 
     return (
         <>
@@ -7,4 +7,4 @@ function Projects() {
     )
 }
 
-export default Projects
+export default ProjectsPage
