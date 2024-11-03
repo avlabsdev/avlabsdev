@@ -1,4 +1,6 @@
-function AboutPage() {
+import React from 'react';
+
+const AboutPage = () => {
 
     return (
       <>
