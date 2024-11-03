@@ -2,13 +2,8 @@
 
 export default function ProjectsPage() {
   return (
-    <div>
-      <main>
-        Projects page!
-      </main>
-      <footer>
-        Footer!
-      </footer>
-    </div>
+    <>
+      Projects page
+    </>
   );
 }

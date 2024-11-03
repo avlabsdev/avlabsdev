@@ -2,13 +2,8 @@
 
 export default function AboutPage() {
   return (
-    <div>
-      <main>
-        About page!
-      </main>
-      <footer>
-        Footer!
-      </footer>
-    </div>
+    <>
+      About page
+    </>
   );
 }
