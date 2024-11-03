@@ -13,7 +13,7 @@ import ContactPage from './pages/Contact'
 function App() {
 
   return (
-    <>
+    <div className="App">
       <header className="w-full border-b border-gray-200">
         <div className="container mx-auto flex items-center justify-between p-2">
           <a href="/" className="p-2 font-semibold text-lg flex items-center gap-2 hover:opacity-75 transition-opacity	">
@@ -42,7 +42,7 @@ function App() {
           <a href="#/" className="p-2 font-medium hover:opacity-75">Terms of Service</a>
         </div>
       </footer>
-    </>
+    </div>
   )
 }
 
