@@ -1,10 +1,10 @@
 // import Image from "next/image";
 
-export default function AboutPage() {
+export default function ProjectsPage() {
   return (
     <div>
       <main>
-        About page!
+        Projects page!
       </main>
       <footer>
         Footer!

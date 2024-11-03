@@ -1,10 +1,10 @@
 // import Image from "next/image";
 
-export default function AboutPage() {
+export default function ContactPage() {
   return (
     <div>
       <main>
-        About page!
+        Contact page!
       </main>
       <footer>
         Footer!
