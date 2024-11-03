@@ -4,7 +4,7 @@ const ProjectsPage = () => {
 
     return (
         <>
-            Projects
+            <div>Projects</div>
         </>
     )
 }
