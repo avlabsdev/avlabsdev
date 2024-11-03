@@ -1,5 +1,6 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import { BrowserRouter } from 'react-router-dom';
 import "@fontsource/poppins"; // Defaults to weight 400
 import "@fontsource/poppins/100.css"; // Specify weight
 import "@fontsource/poppins/100-italic.css"; // Specify weight and style
@@ -22,8 +23,11 @@ import "@fontsource/poppins/900-italic.css"; // Specify weight and style
 import './index.css'
 import App from './App.jsx'
 
-createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    <App />
-  </StrictMode>,
-)
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+  </React.StrictMode>
+);
