@@ -1,16 +1,17 @@
 ## Hi there 👋
 
-<!--
-**avlabsdev/avlabsdev** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I was a long-time web designer from 2002 - 2016. I saw the web grow up literally in real-time over the years.
 
-Here are some ideas to get you started:
+I have since been focusing on front-end engineering and full-stack development. I found that I have even more passion for development and engineering than simply just design.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+AV Labs is a place for me to share my projects and info for potential clients/employers. I am actively looking for work, freelance, contract, or a permanent position.
+
+Please feel free to contact me at my email: aaronvarga@aol.com
+
+I am always up for open-source projects with anyone wanting to collaborate and maybe do some pair programming, etc.
+
+I look forward to connecting with many more people from the dev community.
+
+Best wishes!
+
+- A-a-ron
