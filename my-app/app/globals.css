@@ -38,5 +38,5 @@ p {
 }
 
 a {
-  @apply transition-colors;
+  @apply transition-colors transition-opacity;
 }
