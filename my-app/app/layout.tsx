@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 import "./globals.css";
 
- // fonts
+// fonts
 import "@fontsource/poppins"; // Defaults to weight 400
 import "@fontsource/poppins/100.css"; // Specify weight
 import "@fontsource/poppins/100-italic.css"; // Specify weight and style
@@ -39,9 +39,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`antialiased`}
-      >
+      <body className={`antialiased`}>
         <HeaderNav />
         <main className="p-4 flex-grow h-full">{children}</main>
         <Footer />
