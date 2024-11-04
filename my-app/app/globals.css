@@ -26,5 +26,5 @@ body {
 
 main {
   flex: 1;
-  @apply my-8
+  @apply my-8;
 }
