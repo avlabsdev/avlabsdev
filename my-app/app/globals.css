@@ -28,3 +28,15 @@ main {
   flex: 1;
   @apply my-8;
 }
+
+h1 {
+  @apply text-gray-200;
+}
+
+p {
+  @apply text-gray-400;
+}
+
+a {
+  @apply transition-colors;
+}
