@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import "./globals.css";
-import HeaderNav from "./components/headernav";
-import Footer from "./components/footer";
 
+import "./globals.css";
+
+ // fonts
 import "@fontsource/poppins"; // Defaults to weight 400
 import "@fontsource/poppins/100.css"; // Specify weight
 import "@fontsource/poppins/100-italic.css"; // Specify weight and style
@@ -22,6 +22,10 @@ import "@fontsource/poppins/800.css"; // Specify weight
 import "@fontsource/poppins/800-italic.css"; // Specify weight and style
 import "@fontsource/poppins/900.css"; // Specify weight
 import "@fontsource/poppins/900-italic.css"; // Specify weight and style
+
+// components
+import HeaderNav from "./components/headernav";
+import Footer from "./components/footer";
 
 export const metadata: Metadata = {
   title: "AV Labs - Professional Front-End Engineering Services",
