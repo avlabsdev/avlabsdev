@@ -13,7 +13,7 @@ export default function Home() {
           height={128 * 2}
         />
         <div className="flex flex-col gap-2 w-full">
-          <h1 className="font-bold text-2xl">Hi, I'm A-a-ron 😀</h1>
+          <h1 className="font-bold text-2xl">Hi, I&apos;m A-a-ron 😀</h1>
           <p>
             Front-End Engineer with over 3 years of experience building
             beautiful, modern, fast applications with HTML, CSS, & JS.
