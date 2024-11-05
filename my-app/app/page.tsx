@@ -27,7 +27,7 @@ export default function Home() {
               href="https://github.com/avlabsdev"
               target={"_blank"}
             >
-              <span className="drop-shadow-lg">GitHub</span>
+              <span className="drop-shadow-lg">GitHub.</span>
             </Link>
           </div>
         </div>
