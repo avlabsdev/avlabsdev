@@ -12,7 +12,7 @@ export default function Home() {
           className="rounded-xl max-w-full"
         />
         <div className="flex flex-col gap-2 w-full">
-          <h1 className="font-bold text-2xl text-center">
+          <h1 className="font-bold text-3xl text-center">
             Hi, I&apos;m A-a-ron 😀
           </h1>
           <p>
