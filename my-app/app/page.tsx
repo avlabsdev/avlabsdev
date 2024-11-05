@@ -21,15 +21,6 @@ export default function Home() {
           </p>
           <div className="flex flex-col gap-4 mt-4 md:flex-row">
             <Link
-              className="text-lg rounded-xl py-4 px-8 text-center text-white font-medium bg-blue-500 hover:bg-blue-400 shadow-lg hover:shadow-blue-700/50 transition-shadow transition-colors md:w-1/2 lg:w-1/2 xl:w-1/2 2xl:w-1/2"
-              href="https://www.linkedin.com/in/aaronvarga/"
-              target={"_blank"}
-            >
-              <span className="drop-shadow-lg sm:text-xl md:text-lg lg:text-xl">
-                LinkedIn
-              </span>
-            </Link>
-            <Link
               className="text-lg rounded-xl py-4 px-8 text-center text-white font-medium bg-purple-500 hover:bg-purple-400 shadow-lg hover:shadow-purple-700/50 transition-shadow transition-colors hover:shadow-purple-700/50 md:w-1/2 lg:w-1/2 xl:w-1/2 2xl:w-1/2"
               href="https://github.com/avlabsdev"
               target={"_blank"}
