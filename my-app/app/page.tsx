@@ -9,25 +9,25 @@ export default function Home() {
         <Image
           src={avPhoto}
           alt="Picture of the author"
-          className="rounded-xl max-w-full md:w-1/3 lg:w-1/3 xl:w-1/3 2xl:w-1/3"
+          className="rounded-xl max-w-full md:w-1/2"
         />
         <div className="flex flex-col gap-4 max-w-full">
-          <h1 className="font-bold text-4xl text-center sm:text-left sm:text-6xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl">
+          <h1 className="font-bold text-4xl text-center sm:text-center md:text-left sm:text-6xl md:text-3xl">
             Hi, I&apos;m A-a-ron 😀
           </h1>
-          <p className="text-xl sm:text-xl md:text-xl lg:text-xl xl:text-3xl px-2 sm:px-0">
+          <p className="">
             Front-End Engineer with over 3 years of experience building
-            beautiful, modern, fast applications with HTML, CSS, & JS.
+            beautiful, modern, fast apps with HTML, CSS, & JS. I worked as a web
+            graphics designer for over 15 years. Development & engineering are
+            my love and passion today.
           </p>
           <div className="flex flex-col gap-4 mt-4 md:flex-row">
             <Link
-              className="text-lg rounded-xl py-4 px-8 text-center text-white font-medium bg-purple-500 hover:bg-purple-400 shadow-lg hover:shadow-purple-700/50 transition-shadow transition-colors hover:shadow-purple-700/50 md:w-1/2 lg:w-1/2 xl:w-1/2 2xl:w-1/2"
+              className="rounded-xl py-4 px-8 text-center text-black font-medium bg-white opacity-75 hover:opacity-100 shadow-lg hover:shadow-gray-800/50 transition-shadow transition-colors w-full"
               href="https://github.com/avlabsdev"
               target={"_blank"}
             >
-              <span className="drop-shadow-lg sm:text-xl md:text-lg lg:text-xl">
-                GitHub
-              </span>
+              <span className="drop-shadow-lg">GitHub</span>
             </Link>
           </div>
         </div>
