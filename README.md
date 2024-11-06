@@ -6,7 +6,7 @@ I have since been focusing on front-end engineering and full-stack development. 
 
 AV Labs is a place for me to share my projects and info for potential clients/employers. I am actively looking for work, freelance, contract, or a permanent position.
 
-Please feel free to contact me at my email: aaronvarga@aol.com
+Please feel free to contact me.
 
 I am always up for open-source projects with anyone wanting to collaborate and maybe do some pair programming, etc.
 
