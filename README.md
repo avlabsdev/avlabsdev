@@ -4,7 +4,7 @@ I was a long-time web designer from 2002 - 2016. I saw the web grow up literally
 
 I have since been focusing on front-end engineering and full-stack development. I found that I have even more passion for development and engineering than simply just design.
 
-AV Labs is a place for me to share my projects and info for potential clients/employers. I am actively looking for work, freelance, contract, or a permanent position.
+AV Labs is a place for me to share my projects and info for potential clients/employers. **I am actively looking for work, freelance, contract, or a permanent position**.
 
 Please feel free to contact me.
 
