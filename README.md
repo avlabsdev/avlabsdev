@@ -2,7 +2,7 @@
 
 I am currently working on multiple front-end projects including a front-end development education platform.
 
-I was a long-time web designer from 2002 - 2016. I saw the web grow up literally in real-time over the years.
+I was a long-time web designer from 2002 - 2011. I saw the web grow up literally in real-time over the years.
 
 I have since been focusing on front-end engineering and full-stack development. I found that I have even more passion for development and engineering than simply just design.
 
