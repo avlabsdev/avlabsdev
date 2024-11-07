@@ -7,7 +7,7 @@ export default function Home() {
       <section>
         <div className="flex flex-col gap-8 relative -mb-4 sm:-mb-0 lg:pb-0 sm:pb-0">
           <Image
-            className="relative -mb-16 sm:mb-0 sm:hidden -top-16 right-0 z-0 lg:w-1/3 md:w-1/2 sm:w-1/2 opacity-75"
+            className="relative -mb-16 sm:mb-0 sm:hidden -top-16 right-0 z-0 lg:w-1/3 md:w-1/2 sm:w-1/2 opacity-75 w-full"
             src="/av.webp"
             alt="Aaron Varga"
             width={425}
@@ -24,7 +24,7 @@ export default function Home() {
             experience building fast, modern, beautiful web apps.
           </p>
           <Image
-            className="hidden sm:absolute -top-16 right-0 z-0 lg:w-1/3 md:w-1/2 sm:w-1/2 opacity-75"
+            className="hidden sm:flex sm:absolute -top-16 right-0 z-0 lg:w-1/3 md:w-1/2 sm:w-1/2 opacity-75"
             src="/av.webp"
             alt="Aaron Varga"
             width={425}
