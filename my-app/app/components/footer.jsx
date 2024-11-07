@@ -5,7 +5,7 @@ import githubIcon from "../../public/github.svg";
 export default function Footer() {
   return (
     <>
-      <footer className="container mx-auto flex items-center justify-between py-8 mt-16">
+      <footer className="container mx-auto flex items-center justify-between py-8 mt-8">
         <p>&copy; 2024 AV Labs. All rights reserved.</p>
         <Link
           className="opacity-75 hover:opacity-100"

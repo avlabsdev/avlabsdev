@@ -7,9 +7,9 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  @apply container mx-auto flex grow;
+  @apply container mx-auto flex grow max-w-screen-lg;
 }
 
 main {
-  @apply my-8;
+  @apply my-16;
 }

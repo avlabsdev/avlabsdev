@@ -41,7 +41,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`antialiased`}>
         <HeaderNav />
-        <main className="p-4 flex-grow h-full">{children}</main>
+        <main className="flex-grow h-full">{children}</main>
         <Footer />
       </body>
     </html>

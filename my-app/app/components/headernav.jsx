@@ -6,7 +6,7 @@ import githubIcon from "../../public/github.svg";
 export default function HeaderNav() {
   return (
     <>
-      <header className="flex items-center justify-between container mx-auto py-4">
+      <header className="flex items-center justify-between container mx-auto py-8 z-10">
         <Link
           className="opacity-75 hover:opacity-100 flex items-center gap-2 font-medium text-lg"
           href="/"

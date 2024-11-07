@@ -6,7 +6,7 @@ export default function Home() {
     <div className="flex flex-col gap-32">
       <section>
         <div className="flex flex-col gap-8 relative">
-          <h1 className="text-5xl w-2/3 font-bold z-10">
+          <h1 className="text-6xl w-2/3 font-bold z-10">
             Great to meet you! I&apos;m{" "}
             <span className="border-b-4 border-black">Aaron Varga</span>.
           </h1>
@@ -15,18 +15,18 @@ export default function Home() {
             experience building fast, modern, beautiful web apps.
           </p>
           <Image
-            className="absolute top-0 right-0 z-0 rounded-full"
+            className="absolute -top-16 right-0 z-0 w-1/3"
             src="/av.webp"
             alt="Aaron Varga"
-            width={300}
-            height={300}
+            width={425}
+            height={425}
           />
           <p className="mt-4 border-b-2 border-black w-fit font-medium">
             hello@avlabs.dev
           </p>
         </div>
       </section>
-      <section className="border-t-2 pt-16">
+      <section className="border-t-2 pt-16 -mt-8">
         <div className="grid grid-cols-3 gap-8">
           <div className="flex flex-col gap-2">
             <span className="text-5xl font-bold">HTML</span>
