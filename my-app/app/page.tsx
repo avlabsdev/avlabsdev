@@ -185,18 +185,21 @@ export default function Home() {
             <input
               type="text"
               placeholder="Name"
+              name="name"
               className="border-b-2 p-2"
               required
             />
             <input
               type="email"
               placeholder="Email"
+              name="email"
               className="border-b-2 p-2"
               required
             />
             <textarea
               placeholder="Message"
               className="border-b-2 p-2"
+              name="message"
               required
             />
             <input type="checkbox" name="botcheck" className="hidden" />
