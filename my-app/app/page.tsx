@@ -5,8 +5,8 @@ export default function Home() {
   return (
     <div className="flex flex-col gap-32">
       <section>
-        <div className="flex flex-col gap-8 relative">
-          <h1 className="text-6xl w-2/3 font-bold z-10">
+        <div className="flex flex-col gap-8 relative pb-4 lg:pb-0">
+          <h1 className="lg:text-6xl md:text-5xl w-2/3 font-bold z-10">
             Great to meet you! I&apos;m{" "}
             <span className="border-b-4 border-black">Aaron Varga</span>.
           </h1>
@@ -15,7 +15,7 @@ export default function Home() {
             experience building fast, modern, beautiful web apps.
           </p>
           <Image
-            className="absolute -top-16 right-0 z-0 w-1/3"
+            className="absolute -top-16 right-0 z-0 lg:w-1/3 md:w-1/2 opacity-75"
             src="/av.webp"
             alt="Aaron Varga"
             width={425}
@@ -29,39 +29,41 @@ export default function Home() {
       <section className="border-t-2 pt-16 -mt-8">
         <div className="grid grid-cols-3 gap-8">
           <div className="flex flex-col gap-2">
-            <span className="text-5xl font-bold">HTML</span>
+            <span className="lg:text-5xl md:text-4xl font-bold">HTML</span>
             <span>20+ Years Experience</span>
           </div>
           <div className="flex flex-col gap-2">
-            <span className="text-5xl font-bold">CSS</span>
+            <span className="lg:text-5xl md:text-4xl font-bold">CSS</span>
             <span>20+ Years Experience</span>
           </div>
           <div className="flex flex-col gap-2">
-            <span className="text-5xl font-bold">JavaScript</span>
+            <span className="lg:text-5xl md:text-4xl font-bold">
+              JavaScript
+            </span>
             <span>5+ Years Experience</span>
           </div>
           <div className="flex flex-col gap-2">
-            <span className="text-5xl font-bold">React JS</span>
+            <span className="lg:text-5xl md:text-4xl font-bold">React JS</span>
             <span>2+ Years Experience</span>
           </div>
           <div className="flex flex-col gap-2">
-            <span className="text-5xl font-bold">Next JS</span>
+            <span className="lg:text-5xl md:text-4xl font-bold">Next JS</span>
             <span>1+ Years Experience</span>
           </div>
           <div className="flex flex-col gap-2">
-            <span className="text-5xl font-bold">Supabase</span>
+            <span className="lg:text-5xl md:text-4xl font-bold">Supabase</span>
             <span>1+ Years Experience</span>
           </div>
         </div>
       </section>
       <section>
         <div className="flex items-center justify-between">
-          <h2 className="text-7xl font-bold">Projects</h2>
+          <h2 className="lg:text-7xl md:text-5xl font-bold">Projects</h2>
           <a href="#/" className="border-b-2 font-medium">
             View GitHub
           </a>
         </div>
-        <div className="grid grid-cols-3 gap-8 mt-16">
+        <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-8 mt-16">
           <a href="#/" className="flex flex-col gap-2">
             <Image
               src="/cannabis-app4.png"
@@ -132,7 +134,7 @@ export default function Home() {
       </section>
       <section className="flex gap-8">
         <div className="flex flex-col gap-8 w-1/2">
-          <h2 className="text-7xl font-bold">Inquire</h2>
+          <h2 className="lg:text-7xl md:text-5xl font-bold">Inquire</h2>
           <p className="pr-16">
             I would love to hear about your next project and how I can help.
             Please fill out the form and I will get back to you as soon as
