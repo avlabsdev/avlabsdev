@@ -7,7 +7,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  @apply container mx-auto flex grow;
+  @apply container mx-auto flex grow p-4 py-0 sm:p-0 sm:py-4;
   max-width: 1024px;
 }
 
