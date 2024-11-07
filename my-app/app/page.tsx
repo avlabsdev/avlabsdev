@@ -9,8 +9,8 @@ export default function Home() {
             className="relative -mb-16 sm:mb-0 sm:hidden -top-16 right-0 z-0 lg:w-1/3 md:w-1/2 sm:w-1/2 opacity-75 w-full"
             src="/av.webp"
             alt="Aaron Varga"
-            width={425}
-            height={425}
+            width={2448}
+            height={2448}
           />
           <h1 className="lg:text-6xl md:text-5xl sm:text-4xl text-3xl sm:w-2/3 w-fit font-bold z-10">
             Great to meet you!
@@ -26,8 +26,8 @@ export default function Home() {
             className="hidden sm:flex sm:absolute -top-16 right-0 z-0 lg:w-1/3 md:w-1/2 sm:w-1/2 opacity-75"
             src="/av.webp"
             alt="Aaron Varga"
-            width={425}
-            height={425}
+            width={2448}
+            height={2448}
           />
           <p className="mt-4 border-b-2 border-black w-fit font-medium">
             hello@avlabs.dev
@@ -84,27 +84,35 @@ export default function Home() {
           </a>
         </div>
         <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-8 mt-16">
-          <a href="#/" className="flex flex-col gap-2">
+          <a
+            href="https://www.goodmj.app/"
+            target="_blank"
+            className="flex flex-col gap-2"
+          >
             <Image
               src="/cannabis-app4.png"
               alt="Cannabis App"
-              width={300}
-              height={300}
+              width={4000}
+              height={2250}
               className="w-full h-full object-fill"
             />
             <span className="font-bold text-2xl">GoodMj</span>
             <span>HTML, CSS, JS, React JS</span>
           </a>
-          <a href="#/" className="flex flex-col gap-2">
+          <a
+            href="https://avui.design/"
+            target="_blank"
+            className="flex flex-col gap-2"
+          >
             <Image
-              src="/cannabis-app4.png"
+              src="/avuidesign.png"
               alt="Cannabis App"
-              width={300}
-              height={300}
+              width={1490}
+              height={912}
               className="w-full h-full object-fill"
             />
-            <span className="font-bold text-2xl">GoodMj</span>
-            <span>HTML, CSS, JS, React JS</span>
+            <span className="font-bold text-2xl">AVUI</span>
+            <span>HTML, CSS, JS</span>
           </a>
           <a href="#/" className="flex flex-col gap-2">
             <Image
