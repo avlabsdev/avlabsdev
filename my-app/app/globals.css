@@ -2,41 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
-  color: var(--foreground);
-  background: var(--background);
   font-family: Poppins, Arial, Helvetica, sans-serif;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  @apply container max-w-2xl mx-auto;
+  @apply container mx-auto flex grow;
 }
 
 main {
-  flex: 1;
   @apply my-8;
-}
-
-h1 {
-  @apply text-gray-200;
-}
-
-p {
-  @apply text-gray-400;
-}
-
-a {
-  @apply transition-colors transition-opacity;
 }
