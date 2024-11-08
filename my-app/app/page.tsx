@@ -79,7 +79,11 @@ export default function Home() {
           <h2 className="lg:text-7xl md:text-5xl sm:text-4xl text-3xl font-bold">
             Projects
           </h2>
-          <a href="#/" className="border-b-2 font-medium">
+          <a
+            href="https://github.com/avlabsdev"
+            target="_blank"
+            className="border-b-2 font-medium"
+          >
             View GitHub
           </a>
         </div>
@@ -90,11 +94,10 @@ export default function Home() {
             className="flex flex-col gap-2"
           >
             <Image
-              src="/cannabis-app4.png"
+              src="/goodmj.png"
               alt="Cannabis App"
-              width={4000}
-              height={2250}
-              className="w-full h-full object-fill"
+              width={1920}
+              height={1080}
             />
             <span className="font-bold text-2xl">GoodMj</span>
             <span>HTML, CSS, JS, React JS</span>
@@ -104,26 +107,25 @@ export default function Home() {
             target="_blank"
             className="flex flex-col gap-2"
           >
-            <Image
-              src="/avuidesign.png"
-              alt="Cannabis App"
-              width={1490}
-              height={912}
-              className="w-full h-full object-fill"
-            />
+            <Image src="/avui.png" alt="AVUI" width={1920} height={1080} />
             <span className="font-bold text-2xl">AVUI</span>
             <span>HTML, CSS, JS</span>
           </a>
-          <a href="#/" className="flex flex-col gap-2">
+          <a
+            href="https://avlabsdev.github.io/interactive-rating-component-main/"
+            target="_blank"
+            className="flex flex-col gap-2"
+          >
             <Image
-              src="/cannabis-app4.png"
-              alt="Cannabis App"
-              width={300}
-              height={300}
-              className="w-full h-full object-fill"
+              src="/rating-comp.png"
+              alt="Interactive rating component"
+              width={1920}
+              height={1080}
             />
-            <span className="font-bold text-2xl">GoodMj</span>
-            <span>HTML, CSS, JS, React JS</span>
+            <span className="font-bold text-2xl">
+              Interactive Rating Component
+            </span>
+            <span>HTML, CSS, JS</span>
           </a>
           <a href="#/" className="flex flex-col gap-2">
             <Image
