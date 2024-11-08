@@ -3,6 +3,9 @@ import Script from "next/script";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 
+import ThemeProvider from "./utils/ThemeProvider";
+import ThemeSwitcher from "./components/ThemeSwitcher";
+
 import "./globals.css";
 
 // fonts
@@ -43,13 +46,16 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`antialiased`}>
-        <HeaderNav />
-        <main className="flex-grow h-full">
-          {children}
-          <Analytics />
-          <SpeedInsights />
-        </main>
-        <Footer />
+        <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+          <ThemeSwitcher />
+          <HeaderNav />
+          <main className="flex-grow h-full">
+            {children}
+            <Analytics />
+            <SpeedInsights />
+          </main>
+          <Footer />
+        </ThemeProvider>
       </body>
       <Script
         src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"

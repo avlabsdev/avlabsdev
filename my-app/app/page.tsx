@@ -16,7 +16,10 @@ export default function Home() {
             Great to meet you!
             <br />
             I&apos;m{" "}
-            <span className="border-b-4 border-black">Aaron Varga</span>.
+            <span className="border-b-4 border-black dark:border-white">
+              Aaron Varga
+            </span>
+            .
           </h1>
           <p className="w-auto sm:px-0 sm:w-1/2 z-10">
             Based in Cleveland, OH, I&apos;m a front-end developer with 3+ years
@@ -29,12 +32,12 @@ export default function Home() {
             width={2448}
             height={2448}
           />
-          <p className="mt-4 border-b-2 border-black w-fit font-medium">
+          <p className="mt-4 border-b-2 border-black dark:border-white w-fit font-medium">
             hello@avlabs.dev
           </p>
         </div>
       </section>
-      <section className="border-t-2 pt-16 -mt-8">
+      <section className="border-t pt-16 -mt-8">
         <div className="grid grid-cols-2 sm:grid-cols-3 gap-8">
           <div className="flex flex-col gap-2">
             <span className="lg:text-5xl md:text-4xl sm:text-3xl text-2xl font-bold">
@@ -82,7 +85,7 @@ export default function Home() {
           <a
             href="https://github.com/avlabsdev"
             target="_blank"
-            className="border-b-2 font-medium border-black"
+            className="border-b-2 font-medium border-black dark:border-white"
           >
             View GitHub
           </a>
@@ -221,7 +224,7 @@ export default function Home() {
           </div>
           <button
             type="submit"
-            className="border-b-2 border-black mt-8 font-medium w-fit ml-auto"
+            className="border-b-2 border-black dark:border-white mt-8 font-medium w-fit ml-auto"
           >
             Send
           </button>
