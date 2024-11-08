@@ -127,38 +127,47 @@ export default function Home() {
             </span>
             <span>HTML, CSS, JS</span>
           </a>
-          <a href="#/" className="flex flex-col gap-2">
+          <a
+            href="https://avlabsdev.github.io/newsletter-sign-up-form-with-success-message-main/"
+            target="_blank"
+            className="flex flex-col gap-2"
+          >
             <Image
-              src="/cannabis-app4.png"
-              alt="Cannabis App"
-              width={300}
-              height={300}
-              className="w-full h-full object-fill"
+              src="/newsletter-signup.png"
+              alt="Newsletter Signup"
+              width={1920}
+              height={1080}
             />
-            <span className="font-bold text-2xl">GoodMj</span>
-            <span>HTML, CSS, JS, React JS</span>
+            <span className="font-bold text-2xl">Newsletter Signup</span>
+            <span>HTML, CSS, JS</span>
           </a>
-          <a href="#/" className="flex flex-col gap-2">
+          <a
+            href="https://avlabsdev.github.io/intro-component-with-signup-form-main/"
+            target="_blank"
+            className="flex flex-col gap-2"
+          >
             <Image
-              src="/cannabis-app4.png"
-              alt="Cannabis App"
-              width={300}
-              height={300}
-              className="w-full h-full object-fill"
+              src="/intro-comp.png"
+              alt="Intro component form"
+              width={1920}
+              height={1080}
             />
-            <span className="font-bold text-2xl">GoodMj</span>
-            <span>HTML, CSS, JS, React JS</span>
+            <span className="font-bold text-2xl">Intro Component Form</span>
+            <span>HTML, CSS, JS</span>
           </a>
-          <a href="#/" className="flex flex-col gap-2">
+          <a
+            href="https://avlabsdev.github.io/four-card-feature-section-main/"
+            target="_blank"
+            className="flex flex-col gap-2"
+          >
             <Image
-              src="/cannabis-app4.png"
-              alt="Cannabis App"
-              width={300}
-              height={300}
-              className="w-full h-full object-fill"
+              src="/card-features.png"
+              alt="Card features"
+              width={1920}
+              height={1080}
             />
-            <span className="font-bold text-2xl">GoodMj</span>
-            <span>HTML, CSS, JS, React JS</span>
+            <span className="font-bold text-2xl">Card Features</span>
+            <span>HTML, CSS, JS</span>
           </a>
         </div>
       </section>
