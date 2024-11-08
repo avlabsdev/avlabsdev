@@ -1,7 +1,3 @@
-import Image from "next/image";
-import Link from "next/link";
-import dribbbleIcon from "../../public/dribbble.svg";
-
 export default function Footer() {
   return (
     <>
