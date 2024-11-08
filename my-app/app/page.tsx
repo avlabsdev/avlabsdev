@@ -38,6 +38,12 @@ export default function Home() {
         <div className="grid grid-cols-2 sm:grid-cols-3 gap-8">
           <div className="flex flex-col gap-2">
             <span className="lg:text-5xl md:text-4xl sm:text-3xl text-2xl font-bold">
+              UI Design
+            </span>
+            <span className="text-sm sm:text-base">20+ Years Experience</span>
+          </div>
+          <div className="flex flex-col gap-2">
+            <span className="lg:text-5xl md:text-4xl sm:text-3xl text-2xl font-bold">
               HTML
             </span>
             <span className="text-sm sm:text-base">20+ Years Experience</span>
@@ -63,12 +69,6 @@ export default function Home() {
           <div className="flex flex-col gap-2">
             <span className="lg:text-5xl md:text-4xl sm:text-3xl text-2xl font-bold">
               Next JS
-            </span>
-            <span className="text-sm sm:text-base">1+ Years Experience</span>
-          </div>
-          <div className="flex flex-col gap-2">
-            <span className="lg:text-5xl md:text-4xl sm:text-3xl text-2xl font-bold">
-              Supabase
             </span>
             <span className="text-sm sm:text-base">1+ Years Experience</span>
           </div>
