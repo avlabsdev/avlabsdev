@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import flaskIcon from "../../public/flask.svg";
-import githubIcon from "../../public/github.svg";
 
 export default function HeaderNav() {
   return (
