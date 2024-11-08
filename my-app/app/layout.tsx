@@ -28,8 +28,8 @@ import HeaderNav from "./components/headernav";
 import Footer from "./components/footer";
 
 export const metadata: Metadata = {
-  title: "AV Labs - Professional Front-End Engineering Services",
-  description: "Professional Front-End Engineering Services",
+  title: "AV Labs - Professional Front-End Development Services",
+  description: "Professional Front-End Development Services",
 };
 
 export default function RootLayout({
