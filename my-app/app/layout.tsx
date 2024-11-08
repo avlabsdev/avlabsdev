@@ -4,7 +4,6 @@ import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 
 import ThemeProvider from "./utils/ThemeProvider";
-import ThemeSwitcher from "./components/ThemeSwitcher";
 
 import "./globals.css";
 
@@ -47,7 +46,6 @@ export default function RootLayout({
     <html lang="en">
       <body className={`antialiased`}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-          <ThemeSwitcher />
           <HeaderNav />
           <main className="flex-grow h-full">
             {children}

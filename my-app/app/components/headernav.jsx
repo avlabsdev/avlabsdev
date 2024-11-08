@@ -1,4 +1,5 @@
 import Link from "next/link";
+import ThemeSwitcher from "../components/ThemeSwitcher";
 
 export default function HeaderNav() {
   return (
@@ -24,13 +25,16 @@ export default function HeaderNav() {
           </svg>
           AV Labs
         </Link>
-        <Link
-          className="border-b-2 border-black font-medium dark:border-white"
-          href="/Aaron-Varga_Resume_2024.pdf"
-          target={"_blank"}
-        >
-          Download Resume
-        </Link>
+        <div className="flex gap-4 items-center">
+          <Link
+            className="border-b-2 border-black font-medium dark:border-white"
+            href="/Aaron-Varga_Resume_2024.pdf"
+            target={"_blank"}
+          >
+            Download Resume
+          </Link>
+          <ThemeSwitcher />
+        </div>
       </header>
     </>
   );
