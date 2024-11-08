@@ -1,6 +1,6 @@
 ## Hi there 👋
 
-**NOTE: I MIGRATED MY ACCOUNT REPOS TO A NEW PROFILE.**
+**NOTE: I MIGRATED MY REPOS FROM A PREVIOUS ACCOUNT TO A NEW ACCOUNT (THIS ACCOUNT).**
 
 ![ui-designs-preview](https://github.com/user-attachments/assets/a5171131-7493-485a-83c6-826b73208cc2)
 
