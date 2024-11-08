@@ -15,11 +15,11 @@ export default function HeaderNav() {
           AV Labs
         </Link>
         <Link
-          className="opacity-75 hover:opacity-100"
+          className="opacity-75 hover:opacity-100 border-b-2 border-black font-medium"
           href="https://github.com/avlabsdev"
           target={"_blank"}
         >
-          <Image src={githubIcon} alt="GitHub Icon" width={22} height={22} />
+          Download Resume
         </Link>
       </header>
     </>
