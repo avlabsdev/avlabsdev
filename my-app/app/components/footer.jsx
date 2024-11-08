@@ -7,11 +7,7 @@ export default function Footer() {
     <>
       <footer className="container mx-auto flex items-center justify-between py-8 mt-8">
         <p>&copy; 2024 AV Labs. All rights reserved.</p>
-        <Link
-          className="opacity-75 hover:opacity-100"
-          href="https://github.com/avlabsdev"
-          target={"_blank"}
-        >
+        <Link href="https://github.com/avlabsdev" target={"_blank"}>
           <Image src={githubIcon} alt="GitHub Icon" width={22} height={22} />
         </Link>
       </footer>
