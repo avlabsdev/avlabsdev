@@ -99,7 +99,7 @@ export default function Home() {
               width={1920}
               height={1080}
             />
-            <span className="font-bold text-2xl">GoodMj</span>
+            <span className="font-bold sm:text-2xl text-xl">GoodMj</span>
             <span>HTML, CSS, JS, React JS</span>
           </a>
           <a
@@ -108,7 +108,7 @@ export default function Home() {
             className="flex flex-col gap-2"
           >
             <Image src="/avui.png" alt="AVUI" width={1920} height={1080} />
-            <span className="font-bold text-2xl">AVUI</span>
+            <span className="font-bold sm:text-2xl text-xl">AVUI</span>
             <span>HTML, CSS, JS</span>
           </a>
           <a
@@ -122,7 +122,7 @@ export default function Home() {
               width={1920}
               height={1080}
             />
-            <span className="font-bold text-2xl">
+            <span className="font-bold sm:text-2xl text-xl">
               Interactive Rating Component
             </span>
             <span>HTML, CSS, JS</span>
@@ -138,7 +138,9 @@ export default function Home() {
               width={1920}
               height={1080}
             />
-            <span className="font-bold text-2xl">Newsletter Signup</span>
+            <span className="font-bold sm:text-2xl text-xl">
+              Newsletter Signup
+            </span>
             <span>HTML, CSS, JS</span>
           </a>
           <a
@@ -152,7 +154,9 @@ export default function Home() {
               width={1920}
               height={1080}
             />
-            <span className="font-bold text-2xl">Intro Component Form</span>
+            <span className="font-bold sm:text-2xl text-xl">
+              Intro Component Form
+            </span>
             <span>HTML, CSS, JS</span>
           </a>
           <a
@@ -166,7 +170,7 @@ export default function Home() {
               width={1920}
               height={1080}
             />
-            <span className="font-bold text-2xl">Card Features</span>
+            <span className="font-bold sm:text-2xl text-xl">Card Features</span>
             <span>HTML, CSS, JS</span>
           </a>
         </div>
