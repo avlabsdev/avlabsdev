@@ -15,7 +15,7 @@ export default function HeaderNav() {
         </Link>
         <Link
           className="opacity-75 hover:opacity-100 border-b-2 border-black font-medium"
-          href="https://github.com/avlabsdev"
+          href="/Aaron-Varga_Resume_2024.pdf"
           target={"_blank"}
         >
           Download Resume
