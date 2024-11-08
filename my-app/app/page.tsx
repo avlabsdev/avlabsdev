@@ -82,7 +82,7 @@ export default function Home() {
           <a
             href="https://github.com/avlabsdev"
             target="_blank"
-            className="border-b-2 font-medium"
+            className="border-b-2 font-medium border-black"
           >
             View GitHub
           </a>
@@ -217,7 +217,7 @@ export default function Home() {
           </div>
           <button
             type="submit"
-            className="border-b-2 mt-8 font-medium w-fit ml-auto"
+            className="border-b-2 border-black mt-8 font-medium w-fit ml-auto"
           >
             Send
           </button>
