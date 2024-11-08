@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 
 import "./globals.css";
 
@@ -44,6 +45,19 @@ export default function RootLayout({
         <main className="flex-grow h-full">{children}</main>
         <Footer />
       </body>
+      <Script
+        src="https://www.googletagmanager.com/gtag/js?id=G-JZJDSXZJ6N"
+        strategy="afterInteractive"
+      />
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){window.dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'GA_MEASUREMENT_ID');
+        `}
+      </Script>
     </html>
   );
 }
