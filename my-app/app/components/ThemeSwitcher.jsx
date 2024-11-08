@@ -8,7 +8,7 @@ const ThemeSwitcher = () => {
   useEffect(() => {
     setMount(true);
   }, []);
-  console.log(currentTheme);
+  // console.log(currentTheme);
   return mount ? (
     <div>
       <button
