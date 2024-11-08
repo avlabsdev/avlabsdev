@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Script from "next/script";
+import { Analytics } from "@vercel/analytics/react";
 
 import "./globals.css";
 
@@ -42,7 +43,10 @@ export default function RootLayout({
     <html lang="en">
       <body className={`antialiased`}>
         <HeaderNav />
-        <main className="flex-grow h-full">{children}</main>
+        <main className="flex-grow h-full">
+          {children}
+          <Analytics />
+        </main>
         <Footer />
       </body>
       <Script
