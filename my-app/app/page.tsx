@@ -18,7 +18,7 @@ export default function Home() {
             I&apos;m{" "}
             <span className="border-b-4 border-black">Aaron Varga</span>.
           </h1>
-          <p className="w-auto px-2 sm:px-0 sm:w-1/2 z-10">
+          <p className="w-auto sm:px-0 sm:w-1/2 z-10">
             Based in Cleveland, OH, I&apos;m a front-end developer with 3+ years
             experience building fast, modern, beautiful web apps.
           </p>
