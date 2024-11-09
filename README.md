@@ -8,8 +8,6 @@ I am currently working on multiple front-end projects including a front-end deve
 
 Please feel free to contact me regarding any opportunities or your next project idea!
 
-I look forward to connecting with many more people from the dev community.
-
 Best wishes!
 
 A-a-ron
