@@ -1,5 +1,7 @@
 ## Hi there 👋
 
+**NOTE: I MIGRATED MY REPOS FROM A PREVIOUS ACCOUNT TO A NEW ACCOUNT (THIS ACCOUNT).**
+
 ![ui-designs-preview](https://github.com/user-attachments/assets/a5171131-7493-485a-83c6-826b73208cc2)
 
 I am currently working on multiple front-end projects including a front-end development education platform and landlord-tennant app.
