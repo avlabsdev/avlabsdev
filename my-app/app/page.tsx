@@ -118,7 +118,7 @@ export default function Home() {
               height={1080}
             />
             <span className="font-bold sm:text-2xl text-xl">AV Labs Blog</span>
-            <span>HTML, CSS, React/Next JS</span>
+            <span>HTML, CSS, Next JS/Astro</span>
           </a>
           <a
             href="https://avlabsdev.github.io/interactive-rating-component-main/"
