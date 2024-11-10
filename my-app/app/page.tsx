@@ -24,7 +24,7 @@ export default function Home() {
           <p className="w-auto sm:px-0 sm:w-1/2 z-10">
             Based in Cleveland, OH, I&apos;m a front-end developer with 3+ years
             experience building fast, modern, beautiful web apps. I&apos;ve also
-            previously worked as web UI designer for 15 years.
+            previously worked as web UI designer for 15+ years.
           </p>
           <Image
             className="hidden sm:flex sm:absolute -top-16 right-0 z-0 lg:w-1/3 md:w-1/2 sm:w-1/2 opacity-75"
