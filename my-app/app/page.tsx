@@ -107,13 +107,18 @@ export default function Home() {
             <span>HTML, CSS, JS, React JS</span>
           </a>
           <a
-            href="https://avui.design/"
+            href="https://avlabs.blog/"
             target="_blank"
             className="flex flex-col gap-2"
           >
-            <Image src="/avui.png" alt="AVUI" width={1920} height={1080} />
-            <span className="font-bold sm:text-2xl text-xl">AVUI</span>
-            <span>HTML, CSS, JS</span>
+            <Image
+              src="/avlabs-blog.png"
+              alt="AV Labs Blog"
+              width={1920}
+              height={1080}
+            />
+            <span className="font-bold sm:text-2xl text-xl">AV Labs Blog</span>
+            <span>HTML, CSS, React/Next JS</span>
           </a>
           <a
             href="https://avlabsdev.github.io/interactive-rating-component-main/"
