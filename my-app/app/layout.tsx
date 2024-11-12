@@ -44,6 +44,32 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <meta property="og:url" content="https://www.avlabs.dev" />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:title"
+          content="AV Labs - Professional Front-End Development Services"
+        />
+        <meta
+          property="og:description"
+          content="Professional Front-End Development Services"
+        />
+        <meta property="og:image" content="/avlabs-splash.jpg" />
+
+        <meta name="twitter:card" content="/avlabs-splash.jpg" />
+        <meta property="twitter:domain" content="avlabs.dev" />
+        <meta property="twitter:url" content="https://www.avlabs.dev" />
+        <meta
+          name="twitter:title"
+          content="AV Labs - Professional Front-End Development Services"
+        />
+        <meta
+          name="twitter:description"
+          content="Professional Front-End Development Services"
+        />
+        <meta name="twitter:image" content="/avlabs-splash.jpg" />
+      </head>
       <body className={`antialiased`}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <HeaderNav />
