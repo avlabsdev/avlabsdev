@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <>
       <footer className="container mx-auto flex items-center justify-between py-8 mt-8">
-        <p>&copy; 2024 AV Labs. All rights reserved.</p>
+        <p>&copy; AV Labs 2024. All rights reserved.</p>
         <div className="flex gap-4">
           <Link href="https://github.com/avlabsdev" target="_blank">
             <svg
