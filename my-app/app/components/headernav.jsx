@@ -26,13 +26,6 @@ export default function HeaderNav() {
           AV Labs
         </Link>
         <div className="flex gap-4 items-center">
-          <Link
-            className="border-b-2 border-black font-medium dark:border-white"
-            href="/Aaron-Varga_Resume_2024.pdf"
-            target={"_blank"}
-          >
-            Download Resume
-          </Link>
           <ThemeSwitcher />
         </div>
       </header>
