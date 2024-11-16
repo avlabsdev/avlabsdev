@@ -1,6 +1,6 @@
 ## Hi there 👋
 
-Unfollow me!
+Unfollow me! I'm not here for followers.
 
 Quietly succeed and lap people. Repeat.
 
