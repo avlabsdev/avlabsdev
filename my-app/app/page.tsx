@@ -92,96 +92,44 @@ export default function Home() {
           </a>
         </div>
         <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-8 mt-16">
-          <a
-            href="https://www.goodmj.app/"
-            target="_blank"
-            className="flex flex-col gap-2"
-          >
+          <span className="flex flex-col gap-2">
             <Image
-              src="/goodmj.png"
+              src="/goodmj-share-preview.jpg"
               alt="Cannabis App"
               width={1920}
               height={1080}
             />
-            <span className="font-bold sm:text-2xl text-xl">GoodMj</span>
-            <span>HTML, CSS, JS, React JS</span>
-          </a>
-          <a
-            href="https://avlabs.blog/"
-            target="_blank"
-            className="flex flex-col gap-2"
-          >
+            <span className="font-bold sm:text-2xl text-xl sr-only">
+              GoodMj
+            </span>
+            <span className="italic sr-only">Affordable cannabis for all</span>
+          </span>
+          <span className="flex flex-col gap-2">
             <Image
-              src="/avlabs-blog.png"
+              src="/frontendfury-share-preview.jpg"
               alt="AV Labs Blog"
               width={1920}
               height={1080}
             />
-            <span className="font-bold sm:text-2xl text-xl">AV Labs Blog</span>
-            <span>HTML, CSS, Next JS/Astro</span>
-          </a>
-          <a
-            href="https://avlabsdev.github.io/interactive-rating-component-main/"
-            target="_blank"
-            className="flex flex-col gap-2"
-          >
+            <span className="font-bold sm:text-2xl text-xl sr-only">
+              frontEndFury
+            </span>
+            <span className="italic sr-only">
+              Front-end development education platform
+            </span>
+          </span>
+          <span className="flex flex-col gap-2">
             <Image
-              src="/rating-comp.png"
+              src="/pinkcloud-share-preview.jpg"
               alt="Interactive rating component"
               width={1920}
               height={1080}
             />
-            <span className="font-bold sm:text-2xl text-xl">
-              Interactive Rating Component
+            <span className="font-bold sm:text-2xl text-xl sr-only">
+              Pink Cloud
             </span>
-            <span>HTML, CSS, JS</span>
-          </a>
-          <a
-            href="https://avlabsdev.github.io/newsletter-sign-up-form-with-success-message-main/"
-            target="_blank"
-            className="flex flex-col gap-2"
-          >
-            <Image
-              src="/newsletter-signup.png"
-              alt="Newsletter Signup"
-              width={1920}
-              height={1080}
-            />
-            <span className="font-bold sm:text-2xl text-xl">
-              Newsletter Signup
-            </span>
-            <span>HTML, CSS, JS</span>
-          </a>
-          <a
-            href="https://avlabsdev.github.io/intro-component-with-signup-form-main/"
-            target="_blank"
-            className="flex flex-col gap-2"
-          >
-            <Image
-              src="/intro-comp.png"
-              alt="Intro component form"
-              width={1920}
-              height={1080}
-            />
-            <span className="font-bold sm:text-2xl text-xl">
-              Intro Component Form
-            </span>
-            <span>HTML, CSS, JS</span>
-          </a>
-          <a
-            href="https://avlabsdev.github.io/four-card-feature-section-main/"
-            target="_blank"
-            className="flex flex-col gap-2"
-          >
-            <Image
-              src="/card-features.png"
-              alt="Card features"
-              width={1920}
-              height={1080}
-            />
-            <span className="font-bold sm:text-2xl text-xl">Card Features</span>
-            <span>HTML, CSS, JS</span>
-          </a>
+            <span className="italic sr-only">Sober Support App</span>
+          </span>
         </div>
       </section>
       <section className="flex sm:flex-row flex-col gap-8">
